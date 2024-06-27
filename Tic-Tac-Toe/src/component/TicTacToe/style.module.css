@@ -1,0 +1,70 @@
+.TicTacToeWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.Square {
+    border: 1px solid red;
+    float: left;
+    font-size: 40px;
+    height: 100px;
+    padding: 0px;
+    text-align: center;
+    width: 100px;
+    margin-right: -1px;
+    margin-top: -1px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    padding-left: 2vw;
+    color: rgb(154, 205, 50);
+    display: block;
+    font-family: monospace,sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    height: 3rem;
+    line-height: 3rem;
+    margin-left: 0;
+    padding-left: 0;
+
+}
+
+button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-weight: 500;
+    font-family: inherit;
+    margin: 10px;
+    color: #fff;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+button:hover {
+    border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    border: 2px solid greenyellow;
+}
+
+.winnerGif {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
